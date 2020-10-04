@@ -1,0 +1,32 @@
+.admin-container{
+    margin-left: 135px;
+    margin-top: 0px;
+}
+
+.nav-container{
+    display: flex;
+    background-color: rgb(214, 203, 203);
+    margin-right: 120px;
+}
+.logged-in{
+    float: right;
+    text-align: right;
+    margin-left: 650px;;
+}
+
+.left-nav{
+    height: 900px;
+    width: 250px;
+    margin-top: -70px;
+    background-color: rgb(214, 203, 203);
+}
+.vol-reg{
+    margin-top: 70px;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+.add-event{
+    margin-top: 30px;
+   
+    padding-left: 10px;
+}

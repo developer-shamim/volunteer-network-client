@@ -1,0 +1,67 @@
+
+
+.login-area{
+    position:absolute;
+    align-items:center;
+    text-align: center;
+    padding: 50px;
+    width: 470px;
+    height: 550px;
+    margin-left: 500px;
+    margin-top: -40px;
+    background: #FFFFFF;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 10px grey ;
+}
+
+.account-area{
+    position:absolute;
+    align-items:center;
+    text-align: center;
+    padding: 30px;
+    width: 570px;
+    height: 585px;
+    margin-left: 438px;
+    margin-top: 40px;
+    background: #FFFFFF;
+    border: 1px solid #ababab;
+    border-radius: 5px;
+    BOX-sizing: border-box;
+    padding: 20px;
+}
+
+.btn-log{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.btn-social{
+    background-color: transparent;
+    border-radius: 20px;
+    height: 40px;
+    width: 280px;
+}
+
+.input-area{
+    margin-top: 20px;
+}
+
+.forgot{
+    align-items: right;
+    float: right;
+    padding-left: 30px;
+}
+
+.fb-icon{
+    color: rgb(24, 74, 211);
+}
+
+.g-icon{
+    color: red;
+}

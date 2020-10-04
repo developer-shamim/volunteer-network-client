@@ -1,0 +1,42 @@
+.nav{
+    margin-left: 90px;
+}
+
+.nav li{
+    display: inline;
+    margin-left: 50px;
+    
+  }
+  
+a.link-text{
+    text-decoration: none;
+    color: rgba(7, 7, 7, 0.877);
+    font-weight: bold;
+  }
+
+.event-logo{
+    margin-top:30px;
+    height: 50px;
+}
+
+.event-tasks{
+    position:absolute;
+    width: 570px;
+    height: 220px;
+    margin-top: 50px;
+    margin-left: 115px;
+    border-radius: 10px;
+    background-color: rgb(216, 213, 213);
+}
+
+.event-tasks img{
+    position: absolute;
+    width:194px;
+    height:172px;
+    border-radius: 15px;
+}
+
+.btn-tasks{
+    margin-left: 460px;
+    margin-top: 140px;
+} 

@@ -1,0 +1,72 @@
+.header{
+   margin-top: -20px;
+    height: 496px;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.header .logo{
+    margin-top:30px;
+    height: 50px;
+    filter: brightness(50%) invert(1);
+    color: white;
+}
+.title-container{
+    margin-top: 80px;
+    color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+    font-size: 1em;
+}
+.nav{
+    margin-left: 90px;
+}
+.nav li{
+    display: inline;
+    margin-left: 50px;
+    
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: bold;
+  }
+
+  .btn-reg{
+    height: 44px;
+    width: 90px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+    background-color:royalblue;
+    border: none;
+    border-radius: 7px;
+  }
+  .btn-admin{
+    height: 44px;
+    width: 90px;
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .mr-sm-2{
+    height: 40px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: none;
+    padding-left: 20px;
+  }
+
+  .btn{
+      height: 44px;
+      width: 90px;
+      font-size: 18px;
+      color: white;
+      background-color: royalblue;
+      border: none;
+      border-radius: 7px;
+  }

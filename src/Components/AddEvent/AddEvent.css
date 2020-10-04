@@ -1,0 +1,43 @@
+.cards-container{
+    float: left;
+    position: relative;
+    margin: 22px;
+    width: 290px;
+    height: 320px;
+    margin-left: 25px;
+    border-radius: 20px;
+    background-color: #dbd7d5;
+    text-align: center;
+}
+
+img.card-img-top{
+  
+    width: 290px;
+    height: 220px;
+    border-radius:15px;
+}
+
+.card-title{
+    color: blue;
+}
+
+.card-text{
+    font-size: 12px;
+    font-style: italic;
+}
+.reg-btn{
+    margin-top:20px;
+    border-radius:20px;
+    width:290px;
+}
+
+.event-logo{
+    margin-top:30px;
+    height: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    .cards-container {
+      width: 100%;
+    }
+  }
