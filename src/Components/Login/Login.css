@@ -1,4 +1,10 @@
-
+.login-logo{
+    float: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top:30px;
+    height: 50px;
+}
 
 .login-area{
     position:absolute;
@@ -6,15 +12,19 @@
     text-align: center;
     padding: 50px;
     width: 470px;
-    height: 550px;
-    margin-left: 500px;
-    margin-top: -40px;
+    height: 450px;
+    margin-left: 35%;
+    margin-top: 40px;
     background: #FFFFFF;
     border: 1px solid #ababab;
     border-radius: 5px;
     box-sizing: border-box;
     padding: 20px;
     box-shadow: 10px grey ;
+}
+
+.login-title{
+    font-size: 20px;
 }
 
 .account-area{
@@ -46,6 +56,7 @@
     border-radius: 20px;
     height: 40px;
     width: 280px;
+    font-size: 16px;
 }
 
 .input-area{

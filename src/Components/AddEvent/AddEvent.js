@@ -1,10 +1,12 @@
+import { id } from 'date-fns/esm/locale';
 import React from 'react';
 import { Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './AddEvent.css'
 
 const AddEvent = (props) => {
    
-    const{id, eventName, img} = props.event;
+    const{eventName, img} = props.event;
 
     return (
         <div className="cards-container">
@@ -15,7 +17,10 @@ const AddEvent = (props) => {
                 <Card.Body>
                 <Card.Title>{eventName}</Card.Title>
                 <br/>
-                <Button variant="primary" onClick={() => props.handleAddEvents(id)} className="reg-btn" >Register on this event</Button>
+                <Link to="/login"> 
+                    <Button variant="" onClick={()=>props.handleAddEvents(props.event)} className="reg-btn" >Register on this event</Button>
+                </Link>
+                
             </Card.Body>
            
         </Card>

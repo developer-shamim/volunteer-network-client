@@ -1,5 +1,4 @@
 import React, { createContext, useState } from 'react';
-import Header from './Components/Header/Header';
 import {
   BrowserRouter as Router,
   Switch,
@@ -11,8 +10,6 @@ import Home from './Components/Home/Home';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 import Admin from './Components/Admin/Admin';
 import EventRegistered from './Components/AddEvent/EventRegistered';
-
-
 
 
 export const UserContext = createContext();

@@ -4,6 +4,7 @@ import { faGoogle  } from '@fortawesome/free-brands-svg-icons'
 import "firebase/auth"
 import * as firebase from "firebase/app";
 import './Login.css'
+import logo from '../../images/logo.png';
 import firebaseConfig from './firebase.config';
 import { UserContext } from '../../App'
 import { makeStyles } from '@material-ui/core';
@@ -151,13 +152,16 @@ user.updateProfile({
     return (
         
        <div >  
-       <p>Name: {loggedInUser.name} </p>
-       <p>Email: {user.email}</p>
+             <nav className="nav">
+                    <Link to="/">
+                        <img className="login-logo" src={logo} alt=""/>
+                    </Link>
+            </nav>
             
            <div className= {classes.root}>
             <div className="login-area">
                 <div>
-                    <h5>{newUser ? " Create an account": "Login here"}</h5>
+                    <h5 className="login-title">{newUser ? " Create an account": "Login here"}</h5>
                 </div>
                 <br/>
                 

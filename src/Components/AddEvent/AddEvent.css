@@ -4,7 +4,7 @@
     margin: 22px;
     width: 290px;
     height: 320px;
-    margin-left: 25px;
+    margin-left: 15px;
     border-radius: 20px;
     background-color: #dbd7d5;
     text-align: center;
@@ -25,10 +25,14 @@ img.card-img-top{
     font-size: 12px;
     font-style: italic;
 }
-.reg-btn{
+Button.reg-btn{
     margin-top:20px;
     border-radius:20px;
     width:290px;
+    height: 50px;
+    background-color: royalblue;
+    color: white;
+    font-size: 18px;
 }
 
 .event-logo{

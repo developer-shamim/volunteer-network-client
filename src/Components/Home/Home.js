@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 import { addToDatabaseCart, getDatabaseCart } from '../../DatabaseManager/DatabaseManager';
 import fakeData from '../../FakeData';
 import AddEvent from '../AddEvent/AddEvent';
@@ -6,6 +7,7 @@ import Header from '../Header/Header';
 import'./Home.css'
 
 const Home = () => {
+
     const activities = fakeData.slice(0,20);
     const [event, setEvent] = useState(activities);
 

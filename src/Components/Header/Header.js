@@ -1,18 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Button, Form, FormControl } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { UserContext } from '../../App';
 import header from '../../images/header.jpg';
 import logo from '../../images/logo.png';
 import './Header.css'
 
 const Header = () => {
+    const [loggedInUser] = useContext ( UserContext );
     return (
         <div style={{ backgroundImage: `linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url(${header})` }} className="header">
             <nav className="nav">
                 <ul>
-                    <li>
+                    <Link to="/">
                         <img className="logo" src={logo} alt=""/>
-                    </li>
+                    </Link>
                     <li>
                         <Link to="/home">Home</Link>
                     </li>
@@ -31,6 +33,9 @@ const Header = () => {
                     <Button className="btn-admin">
                         <Link to="/admin">Admin</Link>
                     </Button>
+                    <li>
+                        <Link to="/">Welcome {loggedInUser.name}</Link>
+                    </li>
                 </ul>
             </nav>
             <div className="title-container">
